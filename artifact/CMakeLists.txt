@@ -4,6 +4,7 @@ add_subdirectory(tar)
 add_subdirectory(v3/version)
 add_subdirectory(v3/manifest)
 add_subdirectory(v3/payload)
+add_subdirectory(v3/manifest_sig)
 
 set(parser_sources
   parser.cpp
@@ -11,6 +12,7 @@ set(parser_sources
   v3/version/version.cpp
   v3/manifest/manifest.cpp
   v3/payload/payload.cpp
+  v3/manifest_sig/manifest_sig.cpp
 )
 
 add_library(artifact_parser STATIC ${parser_sources})
