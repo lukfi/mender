@@ -54,7 +54,7 @@ ExpectedSize ByteWriter::Write(
 	assert(end > start);
 	Vsize max_write {receiver_.size() - bytes_written_};
 	if (max_write == 0) {
-		return Error(make_error_condition(errc::no_space_on_device), "");
+		return expected::unexpected(Error(make_error_condition(errc::no_space_on_device), ""));
 	}
 	Vsize iterator_size {static_cast<Vsize>(end - start)};
 	Vsize bytes_to_write {min(iterator_size, max_write)};
@@ -62,6 +62,15 @@ ExpectedSize ByteWriter::Write(
 	std::copy_n(start, bytes_to_write, it);
 	bytes_written_ += bytes_to_write;
 	return bytes_to_write;
+}
+
+ExpectedSize StreamWriter::Write(
+	vector<uint8_t>::const_iterator start, vector<uint8_t>::const_iterator end) {
+	os_.write(reinterpret_cast<const char *>(&*start), end - start);
+	if (!os_) {
+		return expected::unexpected(Error(make_error_condition(errc::io_error), ""));
+	}
+	return end - start;
 }
 
 } // namespace io

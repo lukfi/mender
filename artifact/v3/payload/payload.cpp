@@ -12,10 +12,24 @@
 //    See the License for the specific language governing permissions and
 //    limitations under the License.
 
-#include <gtest/gtest.h>
+#include <artifact/v3/payload/payload.hpp>
 
-int GetTheAnswerToLifeTheUniverseAndEverything();
+#include <vector>
 
-TEST(Main, Main) {
-	EXPECT_EQ(GetTheAnswerToLifeTheUniverseAndEverything(), 42) << "Printed if test fails";
+#include <common/io.hpp>
+
+namespace mender {
+namespace artifact {
+namespace v3 {
+namespace payload {
+
+using namespace std;
+
+Reader Verify(io::Reader &reader, const string &expected_shasum) {
+	return sha::Reader {reader, expected_shasum};
 }
+
+} // namespace payload
+} // namespace v3
+} // namespace artifact
+} // namespace mender

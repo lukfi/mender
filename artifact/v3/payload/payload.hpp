@@ -12,23 +12,36 @@
 //    See the License for the specific language governing permissions and
 //    limitations under the License.
 
-#include <common/events.hpp>
+#ifndef MENDER_ARTIFACT_PAYLOAD_PARSER_HPP
+#define MENDER_ARTIFACT_PAYLOAD_PARSER_HPP
 
-#include <chrono>
-#include <iostream>
+#include <vector>
+
+#include <common/io.hpp>
+#include <common/expected.hpp>
+
+#include <artifact/sha/sha.hpp>
+
+namespace mender {
+namespace artifact {
+namespace v3 {
+namespace payload {
 
 using namespace std;
-namespace events = mender::common::events;
 
-int main() {
-	events::EventLoop loop;
-	events::Timer timer(loop);
+namespace io = mender::common::io;
+namespace error = mender::common::error;
+namespace sha = mender::sha;
 
-	cout << "Hello, wait for it... " << flush;
+using mender::common::expected::ExpectedSize;
 
-	timer.AsyncWait(chrono::seconds(2), [](error_code ec) { cout << "World!" << endl; });
+typedef sha::Reader Reader;
 
-	loop.Run();
+Reader Verify(io::Reader &reader, const string &expected_shasum);
 
-	return 0;
-}
+} // namespace payload
+} // namespace v3
+} // namespace artifact
+} // namespace mender
+
+#endif // MENDER_ARTIFACT_PAYLOAD_PARSER_HPP
