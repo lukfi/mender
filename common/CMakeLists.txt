@@ -115,8 +115,12 @@ if(${procs_sources} MATCHES ".*tiny_process_library.*")
 endif()
 
 add_executable(processes_test EXCLUDE_FROM_ALL processes_test.cpp)
-target_link_libraries(processes_test PUBLIC common_processes GTest::gtest_main gmock)
+target_link_libraries(processes_test PUBLIC common_processes common_error GTest::gtest_main gmock)
 target_include_directories(processes_test PRIVATE ${CMAKE_SOURCE_DIR})
+if(${procs_sources} MATCHES ".*tiny_process_library.*")
+  target_include_directories(processes_test PRIVATE ${CMAKE_SOURCE_DIR}/vendor/tiny-process-library)
+  target_link_libraries(processes_test PUBLIC tiny-process-library::tiny-process-library)
+endif()
 gtest_discover_tests(processes_test)
 add_dependencies(check processes_test)
 

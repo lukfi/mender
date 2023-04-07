@@ -33,6 +33,20 @@ namespace error = mender::common::error;
 namespace expected = mender::common::expected;
 
 enum class RebootAction { No, Automatic, Yes };
+enum class State {
+	Download,
+	ArtifactInstall,
+	NeedsReboot,
+	ArtifactReboot,
+	ArtifactCommit,
+	SupportsRollback,
+	ArtifactRollback,
+	ArtifactVerifyReboot,
+	ArtifactRollbackReboot,
+	ArtifactVerifyRollbackReboot,
+	ArtifactFailure,
+	Cleanup
+};
 
 using ExpectedRebootAction = expected::expected<RebootAction, error::Error>;
 

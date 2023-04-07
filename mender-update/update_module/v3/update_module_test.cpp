@@ -132,3 +132,15 @@ TEST_F(UpdateModuleTests, DiscoverUpdateModulesNoExecutablesTest) {
 	auto modules = ex_modules.value();
 	EXPECT_EQ(modules.size(), 0);
 }
+
+TEST_F(UpdateModuleTests, CallStateArtifactInstall) {
+	update_module::UpdateModule update_module;
+	update_module.ArtifactInstall();
+}
+
+TEST_F(UpdateModuleTests, CallStateSupportsRollback) {
+	update_module::UpdateModule update_module;
+	auto supports = update_module.SupportsRollback();
+	ASSERT_TRUE(supports);
+	ASSERT_EQ(supports.value(), true);
+}

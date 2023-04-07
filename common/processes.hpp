@@ -20,9 +20,19 @@
 #include <common/error.hpp>
 #include <common/expected.hpp>
 
+#include <config.h>
+
+#ifdef MENDER_USE_TINY_PROC_LIB
+#include <process.hpp>
+#endif
+
 namespace mender {
 namespace common {
 namespace processes {
+
+#ifdef MENDER_USE_TINY_PROC_LIB
+namespace tpl = TinyProcessLib;
+#endif
 
 using namespace std;
 
@@ -50,13 +60,30 @@ class Process {
 public:
 	Process(vector<string> args) :
 		args_(args) {};
+	~Process();
 
-	int GetExitStatus() const {
-		return this->exit_status_;
+	error::Error Start(std::function<void (const char *, size_t)> read_stdout = nullptr);
+
+	int Wait();
+
+	int GetExitStatus() {
+		return Wait();
 	};
 	ExpectedLineData GenerateLineData();
 
+//	ExpectedAsyncReaderPtr GetStdoutReader();
+//	ExpectedAsyncReaderPtr GetStderrReader();
+
+	void Terminate();
+	void Kill();
+
 private:
+#ifdef MENDER_USE_TINY_PROC_LIB
+	unique_ptr<tpl::Process> proc_;
+
+	int stdout_pipe_ {-1};
+	int stderr_pipe_ {-1};
+#endif
 	vector<string> args_;
 	int exit_status_ = -1;
 };

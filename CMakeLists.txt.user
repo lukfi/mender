@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorProject>
+<!-- Written by QtCreator 6.0.2, 2023-04-06T09:11:22. -->
+<qtcreator>
+ <data>
+  <variable>EnvironmentId</variable>
+  <value type="QByteArray">{681799ef-fbfb-443b-ba0e-0410f01dc8f4}</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.ActiveTarget</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.EditorSettings</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="EditorConfiguration.AutoIndent">true</value>
+   <value type="bool" key="EditorConfiguration.AutoSpacesForTabs">false</value>
+   <value type="bool" key="EditorConfiguration.CamelCaseNavigation">true</value>
+   <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.0">
+    <value type="QString" key="language">Cpp</value>
+    <valuemap type="QVariantMap" key="value">
+     <value type="QByteArray" key="CurrentPreferences">CppGlobal</value>
+    </valuemap>
+   </valuemap>
+   <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.1">
+    <value type="QString" key="language">QmlJS</value>
+    <valuemap type="QVariantMap" key="value">
+     <value type="QByteArray" key="CurrentPreferences">QmlJSGlobal</value>
+    </valuemap>
+   </valuemap>
+   <value type="int" key="EditorConfiguration.CodeStyle.Count">2</value>
+   <value type="QByteArray" key="EditorConfiguration.Codec">UTF-8</value>
+   <value type="bool" key="EditorConfiguration.ConstrainTooltips">false</value>
+   <value type="int" key="EditorConfiguration.IndentSize">4</value>
+   <value type="bool" key="EditorConfiguration.KeyboardTooltips">false</value>
+   <value type="int" key="EditorConfiguration.MarginColumn">80</value>
+   <value type="bool" key="EditorConfiguration.MouseHiding">true</value>
+   <value type="bool" key="EditorConfiguration.MouseNavigation">true</value>
+   <value type="int" key="EditorConfiguration.PaddingMode">1</value>
+   <value type="bool" key="EditorConfiguration.PreferSingleLineComments">false</value>
+   <value type="bool" key="EditorConfiguration.ScrollWheelZooming">true</value>
+   <value type="bool" key="EditorConfiguration.ShowMargin">false</value>
+   <value type="int" key="EditorConfiguration.SmartBackspaceBehavior">0</value>
+   <value type="bool" key="EditorConfiguration.SmartSelectionChanging">true</value>
+   <value type="bool" key="EditorConfiguration.SpacesForTabs">true</value>
+   <value type="int" key="EditorConfiguration.TabKeyBehavior">0</value>
+   <value type="int" key="EditorConfiguration.TabSize">8</value>
+   <value type="bool" key="EditorConfiguration.UseGlobal">true</value>
+   <value type="bool" key="EditorConfiguration.UseIndenter">false</value>
+   <value type="int" key="EditorConfiguration.Utf8BomBehavior">1</value>
+   <value type="bool" key="EditorConfiguration.addFinalNewLine">true</value>
+   <value type="bool" key="EditorConfiguration.cleanIndentation">true</value>
+   <value type="bool" key="EditorConfiguration.cleanWhitespace">true</value>
+   <value type="QString" key="EditorConfiguration.ignoreFileTypes">*.md, *.MD, Makefile</value>
+   <value type="bool" key="EditorConfiguration.inEntireDocument">false</value>
+   <value type="bool" key="EditorConfiguration.skipTrailingWhitespace">true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.PluginSettings</variable>
+  <valuemap type="QVariantMap">
+   <valuemap type="QVariantMap" key="AutoTest.ActiveFrameworks">
+    <value type="bool" key="AutoTest.Framework.Boost">true</value>
+    <value type="bool" key="AutoTest.Framework.CTest">false</value>
+    <value type="bool" key="AutoTest.Framework.Catch">true</value>
+    <value type="bool" key="AutoTest.Framework.GTest">true</value>
+    <value type="bool" key="AutoTest.Framework.QtQuickTest">true</value>
+    <value type="bool" key="AutoTest.Framework.QtTest">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="AutoTest.CheckStates">
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/parser_test.cpp:ParserTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/parser_test.cpp:ParserTestEnv">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/parser_test.cpp:TestParseMumboJumbo">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/parser_test.cpp:TestParseTopLevelGzip">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/parser_test.cpp:TestParseTopLevelLZMA">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/parser_test.cpp:TestParseTopLevelNoCompression">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/parser_test.cpp:TestParseTopLevelZstd">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/sha/sha_test.cpp:ShasummerTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/sha/sha_test.cpp:TestShaSum">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/sha/sha_test.cpp:TestShaSumReadVerifySuccess">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/sha/sha_test.cpp:TestShaSumReadVerifyWrongChecksum">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/tar/tar_test.cpp:TarTestEnv">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/tar/tar_test.cpp:TestCorruptTar">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/tar/tar_test.cpp:TestTarReaderEOF">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/tar/tar_test.cpp:TestTarReaderInitialization">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/tar/tar_test.cpp:TestTarReaderLargeTarRead">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/tar/tar_test.cpp:TestTarReaderMultipleReadCalls">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/manifest/manifest_test.cpp:ParserTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/manifest/manifest_test.cpp:TestParseManifest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/manifest/manifest_test.cpp:TestParseManifestFormatErrorAllOnOneLine">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/manifest/manifest_test.cpp:TestParseManifestFormatErrorMissingName">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/manifest/manifest_test.cpp:TestParseManifestFormatErrorNewlineSeparators">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/manifest/manifest_test.cpp:TestParseManifestFormatErrorShasumLength">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/manifest/manifest_test.cpp:TestParseManifestFormatErrorWrongNumberOfWhitespaceSeparators">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/payload/payload_test.cpp:PayloadTestEnv">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/payload/payload_test.cpp:TestPayloadFailure">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/payload/payload_test.cpp:TestPayloadSuccess">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/version/version_test.cpp:ParserTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/version/version_test.cpp:TestParseMalformedInput">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/version/version_test.cpp:TestParseMumboJumbo">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/version/version_test.cpp:TestParseVersion">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/version/version_test.cpp:TestParseWrongFormat">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/artifact/v3/version/version_test.cpp:TestParseWrongVersion">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/conf_test.cpp:CmdlineOptionsIteratorBadOptionTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/conf_test.cpp:CmdlineOptionsIteratorDoubleDashTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/conf_test.cpp:CmdlineOptionsIteratorGoodTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/conf_test.cpp:CmdlineOptionsIteratorOptionExtraValueTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/conf_test.cpp:CmdlineOptionsIteratorOptionMissingValueTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/conf_test.cpp:CmdlineOptionsIteratorOptionMissingValueTrailingTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/conf_test.cpp:ConfTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/conf_test.cpp:GetEnvTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:ArtifactVerifyKeyNameCollision">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:ConfigParserDefaults">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:ConfigParserDefaultsTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:ConfigParserTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:LoadAndReset">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:LoadComplete">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:LoadInvalidOverrides">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:LoadNoOverrides">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:LoadOverrides">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:LoadOverridesExtra">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:LoadOverridesExtraArrayItems">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:LoadPartial">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:ValidateConfig">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/config_parser_test.cpp:ValidateServerConfig">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/events_test.cpp:Events">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/events_test.cpp:Timers">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:HttpTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestBasicRequestAndResponse">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestBasicRequestAndResponseWithDebugLogs">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestClientCancelInBodyHandler">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestClientCancelInHeaderHandler">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestDestroyResponseBeforeUsingIt">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestHeaders">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestHeadersWithDebugLogs">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestHttpStatus">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestMissingRequestBody">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestMissingResponse">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestMissingResponseBody">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestMultipleSimultaneousConnections">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestRequestBody">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestRequestInvalidProtocol">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestRequestInvalidProtocolWithPortNumber">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestRequestNoHandlers">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestRequestNotReady">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestResponseBody">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestServerCancelInBodyHandler">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestServerCancelInHeaderHandler">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestServerUrlWithPath">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestShortResponseBody">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestTornDownStream">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestUnsupportedRequestBody">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/http_test.cpp:TestUnsupportedResponseBody">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/identity_parser_test.cpp:GetIdentityDataTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/identity_parser_test.cpp:IdentityParserTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/inventory_parser_test.cpp:GetInventoryDataMultiScriptAllFailTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/inventory_parser_test.cpp:GetInventoryDataMultiScriptOneFailTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/inventory_parser_test.cpp:GetInventoryDataMultiScriptTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/inventory_parser_test.cpp:GetInventoryDataNoScriptTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/inventory_parser_test.cpp:GetInventoryDataNoWorkingScriptButNotEmptyTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/inventory_parser_test.cpp:GetInventoryDataOneScriptTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/inventory_parser_test.cpp:InventoryParserTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/io_test.cpp:Copy">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/io_test.cpp:IO">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/io_test.cpp:TestStringReader">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:EscapeString">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:GetChildren">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:GetDataValues">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:GetJsonData">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:JsonDataTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:JsonFileTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:JsonStringTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:JsonUtilTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:LoadFromInvalidFile">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:LoadFromInvalidReader">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:LoadFromInvalidStream">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:LoadFromInvalidString">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:LoadFromNonexistingFile">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:LoadFromValidFile">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:LoadFromValidReader">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:LoadFromValidStream">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/json_test.cpp:LoadFromValidString">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_database_test.cpp:BasicReadWriteRemove">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_database_test.cpp:KeyValueDatabaseLmdbTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_database_test.cpp:KeyValueDatabaseTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_database_test.cpp:TestReadTransaction">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_database_test.cpp:TestReadTransactionFailure">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_database_test.cpp:TestSomeLmdbExceptionPaths">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_database_test.cpp:TestWriteTransactionCommit">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_database_test.cpp:TestWriteTransactionRollback">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_parser_test.cpp:InvalidItem">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_parser_test.cpp:KeyValueParserTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_parser_test.cpp:ValidDistinctItems">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_parser_test.cpp:ValidMultiAddItems">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/key_value_parser_test.cpp:ValidMultiItems">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:BadFileLogTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:FileLogTestEnv">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:GlobalLoggerLogLevelFilter">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:GlobalLoggerSetLogLevel">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:GlobalLoggerStructuredLogging">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:LogLevelFilter">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:LogTestEnv">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:LoggerLevelFilters">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:SetLogLevel">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:SetupBadFileLogging">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:SetupFileLogging">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/log_test.cpp:StructuredLogging">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/processes_test.cpp:FailGenerateLineDataTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/processes_test.cpp:GenerateEmptyLineDataTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/processes_test.cpp:GenerateLineDataAndFailTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/processes_test.cpp:GenerateLineDataNoEOLTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/processes_test.cpp:GenerateOneLineDataNoEOLTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/processes_test.cpp:ProcessesTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/processes_test.cpp:SimplGenerateLineDataTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/common/processes_test.cpp:SpawnFailGenerateLineDataTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/context_test.cpp:CommitArtifactDataEscaped">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/context_test.cpp:CommitArtifactDataValid">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/context_test.cpp:ContextTests">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/context_test.cpp:LoadProvidesClosedDB">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/context_test.cpp:LoadProvidesEmpty">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/context_test.cpp:LoadProvidesInvalidData">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/context_test.cpp:LoadProvidesInvalidJSON">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/context_test.cpp:LoadProvidesValid">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/update_module/v3/update_module_test.cpp:DiscoverUpdateModulesEmptyDirTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/update_module/v3/update_module_test.cpp:DiscoverUpdateModulesNoExecutablesTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/update_module/v3/update_module_test.cpp:DiscoverUpdateModulesNoExistTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/update_module/v3/update_module_test.cpp:DiscoverUpdateModulesTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/lukfi/workspace/mender/mender-update/update_module/v3/update_module_test.cpp:UpdateModuleTests">Checked</value>
+   </valuemap>
+   <value type="int" key="AutoTest.RunAfterBuild">0</value>
+   <value type="bool" key="AutoTest.UseGlobal">true</value>
+   <valuelist type="QVariantList" key="ClangCodeModel.CustomCommandLineKey"/>
+   <value type="bool" key="ClangCodeModel.UseGlobalConfig">true</value>
+   <value type="QString" key="ClangCodeModel.WarningConfigId">Builtin.BuildSystem</value>
+   <valuemap type="QVariantMap" key="ClangTools">
+    <value type="bool" key="ClangTools.AnalyzeOpenFiles">true</value>
+    <value type="bool" key="ClangTools.BuildBeforeAnalysis">true</value>
+    <value type="QString" key="ClangTools.DiagnosticConfig">Builtin.DefaultTidyAndClazy</value>
+    <value type="int" key="ClangTools.ParallelJobs">2</value>
+    <valuelist type="QVariantList" key="ClangTools.SelectedDirs"/>
+    <valuelist type="QVariantList" key="ClangTools.SelectedFiles"/>
+    <valuelist type="QVariantList" key="ClangTools.SuppressedDiagnostics"/>
+    <value type="bool" key="ClangTools.UseGlobalSettings">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="CppEditor.QuickFix">
+    <value type="bool" key="UseGlobalSettings">true</value>
+   </valuemap>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Target.0</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="DeviceType">Desktop</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{74f02491-e08b-48d8-914c-7d8ec65a2e1d}</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">12</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
+    <value type="QString" key="CMake.Build.Type">Build</value>
+    <value type="QString" key="CMake.Initial.Parameters">-GUnix Makefiles
+-DCMAKE_BUILD_TYPE:STRING=Build
+-DCMAKE_PROJECT_INCLUDE_BEFORE:PATH=%{IDE:ResourcePath}/package-manager/auto-setup.cmake
+-DQT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}
+-DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
+-DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
+-DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    <value type="QString" key="CMake.Source.Directory">/home/lukfi/workspace/mender</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/lukfi/workspace/mender/build</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">all</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ParseStandardOutput">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeBuildConfiguration</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.BuildConfigurationCount">1</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.DeployConfiguration.0">
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">0</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Deploy</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Deploy</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Deploy</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">1</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.DeployConfiguration.CustomData"/>
+    <value type="bool" key="ProjectExplorer.DeployConfiguration.CustomDataEnabled">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.DefaultDeployConfiguration</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.DeployConfigurationCount">1</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.0">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">artifact_version_parser_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.artifact_version_parser_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">artifact_version_parser_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseTerminal">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/artifact/v3/version</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">conf_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.conf_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">conf_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.10">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">log_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.log_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">log_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.11">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">mender-auth</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.mender-auth</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">mender-auth</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/mender-auth</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.12">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">mender-update</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.mender-update</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">mender-update</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/mender-update</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.13">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">processes_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.processes_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">processes_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.14">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">sha_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.sha_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">sha_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/artifact/sha</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.15">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">tar_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.tar_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">tar_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/artifact/tar</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.16">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">artifact_manifest_parser_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.artifact_manifest_parser_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">artifact_manifest_parser_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/artifact/v3/manifest</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.17">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">artifact_parser_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.artifact_parser_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">artifact_parser_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/artifact</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.18">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">artifact_payload_parser_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.artifact_payload_parser_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">artifact_payload_parser_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/artifact/v3/payload</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.19">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">update_module_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.update_module_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">update_module_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/mender-update</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.2">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">config_parser_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.config_parser_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">config_parser_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.20">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">http_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.http_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">http_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.21">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">context_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.context_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">context_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/mender-update</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.3">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">events_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.events_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">events_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.4">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">identity_parser_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.identity_parser_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">identity_parser_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.5">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">inventory_parser_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.inventory_parser_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">inventory_parser_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.6">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">io_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.io_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">io_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.7">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">json_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.json_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">json_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.8">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">key_value_database_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.key_value_database_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">key_value_database_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.9">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">key_value_parser_test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.key_value_parser_test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">key_value_parser_test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/lukfi/workspace/mender/build/common</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">22</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.TargetCount</variable>
+  <value type="int">1</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Updater.FileVersion</variable>
+  <value type="int">22</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">22</value>
+ </data>
+</qtcreator>
